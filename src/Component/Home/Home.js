@@ -18,7 +18,7 @@ const Home = () => {
       <Row>
         <Col>
         <h1 className=' fw-bolder mt-5 text-danger'>Educations is <br /> of successful youth</h1>
-        <p>Consectetur adipisicing elit. Eaque voluptas nobis dicta fuga magni aut! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, expedita. Optio vel alias ullam eos est, culpa expedita fugiat, laudantium non inventore, voluptatum nostrum debitis.</p>
+        <p>Education disciplines and develops both academic performances as well as curricula activities. A person learns to read, weite ,speak,practice activities, and learn various skills through Education. Education makes a person independent and self-sufficient.Learning is a part of Education and can be learned for anyone around us.</p>
         </Col>
         <Col>
         <img className='w-100' src={img} alt="" />
