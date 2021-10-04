@@ -2,7 +2,7 @@ import React from 'react';
 import { Card, Col,} from 'react-bootstrap';
 
 const CardServices = (props) => {
-  const {img, title, price,} = props.item
+  const {img, title, Price, manths,details} = props.item
   return (
     <div>
             <Col>
@@ -10,8 +10,9 @@ const CardServices = (props) => {
                 <Card.Img variant="top" src={img}/>
                 <Card.Body>
                   <Card.Title>{title}</Card.Title>
-                  <Card.Text>{title}</Card.Text>
-                  <p>price : {price}</p>
+                  <Card.Text>Price : {Price}</Card.Text>
+                  <Card.Text>Manths : {manths}</Card.Text>
+                  <Card.Text>{details}</Card.Text>
                 </Card.Body>
               </Card>
             </Col>
