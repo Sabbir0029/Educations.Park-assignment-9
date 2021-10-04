@@ -2,7 +2,7 @@ import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 const Footer = () => {
   return (
-    <div className='bg-info'>
+    <div className='bg-info p-4'>
       <div className='container'>
       <Row>
         <Col className='p-4'>
@@ -13,13 +13,13 @@ const Footer = () => {
         <h1>follow us</h1>
         <Row md={6}>
           <Col><p>Facebook</p></Col>
-          <Col><p>Facebook</p></Col>
-          <Col><p>Facebook</p></Col>
+          <Col><p>Twitter</p></Col>
+          <Col><p>Instagram</p></Col>
         </Row>
         </Col>
       </Row>
-      <div className=''>
-      <h4 className='text-center pb-4'>Copyright © 2021 Educationspark.com</h4>
+      <div className='p-2'>
+      <h4 className='text-center'>Copyright © 2021 Educationspark.com</h4>
       </div>
       </div>
     </div>

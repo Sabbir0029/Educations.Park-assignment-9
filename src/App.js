@@ -8,6 +8,7 @@ import NotFount from './Component/NotFount/NotFount';
 import Header from './Component/Header/Header';
 import Services from './Component/Services/Services';
 import Footer from './Component/Footer/Footer';
+import Teachers from './Component/Teachers/Teachers';
 
 
 function App() {
@@ -27,6 +28,9 @@ function App() {
         </Route>
         <Route path='/Services'>
           <Services></Services>
+        </Route>
+        <Route path='/Teachers'>
+          <Teachers></Teachers>
         </Route>
         <Route path='*'>
           <NotFount></NotFount>
